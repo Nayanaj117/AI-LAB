@@ -55,21 +55,4 @@ def main():
 
 # Tell python to run main method
 if __name__ == "__main__":
-    # Clause
-    # (American(x) & Weapon(y) & Sells(x, y, z) & Hostile(z)) ==> Criminal(x)
-    # Enemy(Nono, America)
-    # Owns(Nono, M1)
-    # Missile(M1)
-    # (Missile(x) & Owns(Nono, x)) ==> Sells(West, x, Nono)
-    # American(West)
-    # Missile(x) ==> Weapon(x)
-
-    # Tell
-    # Enemy(Coco, America)
-    # Enemy(Jojo, America)
-    # Enemy(x, America) ==> Hostile(x)
-
-    # Ask
-    # Hostile(x)
-    # Criminal(x)
     main()
